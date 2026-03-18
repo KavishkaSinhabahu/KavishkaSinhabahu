@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kavishka Sinhabahu — Portfolio Website
+
+A production-ready personal portfolio website built with Next.js 14, TypeScript, Tailwind CSS 4, and Framer Motion.
+
+## Tech Stack
+
+- **Framework:** Next.js 14+ (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS 4
+- **Animations:** Framer Motion
+- **Icons:** Lucide React
+- **Font:** Geist (via next/font)
+- **Theme:** next-themes (dark/light)
+- **Deployment:** Vercel
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/                  # Next.js App Router
+│   ├── actions/          # Server Actions (contact form)
+│   ├── globals.css       # Global styles & design tokens
+│   ├── layout.tsx        # Root layout (SEO, fonts, providers)
+│   └── page.tsx          # Home page (all sections)
+├── components/
+│   ├── layout/           # Navbar, Footer
+│   ├── sections/         # Hero, About, Experience, Projects, Skills, Contact
+│   └── shared/           # ThemeToggle, SectionHeading
+├── config/               # Animation presets
+├── hooks/                # Custom hooks (useScrollDirection)
+├── lib/                  # Utilities, data, fonts
+├── providers/            # ThemeProvider
+└── types/                # TypeScript interfaces
+```
 
-## Learn More
+## Customization
 
-To learn more about Next.js, take a look at the following resources:
+All portfolio content (bio, projects, skills, experience, etc.) is centralized in `src/lib/data.ts` for easy editing.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deploy to Vercel with one click:
 
-## Deploy on Vercel
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2025 Kavishka Sinhabahu. All rights reserved.
