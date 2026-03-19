@@ -133,15 +133,15 @@ export const PROJECTS: Project[] = [
       "Full-featured online store with product management, order processing, shopping cart, payment flow, and dedicated admin dashboard backed by a normalized MySQL database.",
     type: "Web",
     tech: ["Java", "HTML/CSS", "JavaScript", "MySQL"],
-    github: "#",
+    github: "https://github.com/KavishkaSinhabahu/E-Commerce-Platform-with-Admin-Panel",
   },
   {
-    title: "Chat Mobile Application",
+    title: "Mobile Chat Application",
     description:
       "Real-time messaging app with user registration, contact lists, and message history powered by a REST API backend.",
     type: "Mobile",
     tech: ["React Native", "Java", "MySQL"],
-    github: "#",
+    github: "https://github.com/KavishkaSinhabahu/Mobile-Chat-Application",
   },
   {
     title: "M-Commerce App with Admin & Seller Panels",
@@ -149,7 +149,7 @@ export const PROJECTS: Project[] = [
       "Marketplace application with three distinct user roles (buyer, seller, admin), each with dedicated panels. Firebase Realtime Database for scalable cloud-hosted data.",
     type: "Mobile",
     tech: ["Android", "Java", "Firebase"],
-    github: "#",
+    github: "https://github.com/KavishkaSinhabahu/M-Commerce-Application-with-Seller-Panel",
   },
   {
     title: "Movie & TV Series Streaming App",
@@ -165,7 +165,7 @@ export const PROJECTS: Project[] = [
       "Desktop application to manage book catalogues, member records, and lending workflows built with Java Swing GUI.",
     type: "Desktop",
     tech: ["Java", "MySQL"],
-    github: "#",
+    github: "https://github.com/KavishkaSinhabahu/Library-Management-System",
   },
 ];
 
